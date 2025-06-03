@@ -4,6 +4,9 @@
 // Requires PHP v5.0.0 or greater.
 // Works on Linux OS, macOS, and Windows OS.
 // See the original script at https://github.com/pentestmonkey/php-reverse-shell.
+// Modified to run with Corrected Version for PHP < 5.4.0
+// Author modifier ElusiveHacker
+
 class Shell {
     private $addr  = null;
     private $port  = null;
